@@ -1,6 +1,6 @@
 # Project Structure
-This project contains code developed during the research of the "Generating vine trunk semantic segmentation dataset via
-semi-supervised learning and object detection" paper pending peer review.
+This project contains code developed during the research for the MDPI Robotics paper [Generating vine trunk semantic segmentation dataset via
+semi-supervised learning and object detection](https://www.mdpi.com/2218-6581/13/2/20).
 
 * SSL_ELN folder contains slightly modified code from the original [Semi-supervised Semantic Segmentation with Error Localization Network](https://github.com/kinux98/SSL_ELN) project. It's used for training the segmentation decoder with a limited annotated dataset and a large unannotated dataset.
 * LABELED_DATA folder contains about 300 labeled thumbnails of vine trunks exported from [RoboFlow](https://roboflow.com/)
